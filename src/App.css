@@ -1,0 +1,57 @@
+form {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: rgb(73, 206, 73); 
+    color: white; 
+    border:black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: darkgreen;
+  }
+
+  .loading {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+
+  .weather-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .weather-card {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .weather-card h2 {
+    margin-bottom: 8px;
+  }
+  
+  .weather-card span {
+    font-weight: bold;
+  }
+  
